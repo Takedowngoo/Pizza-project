@@ -31,16 +31,16 @@
                 <fieldset>
                     <legend>Sauce:</legend>
                     <div>
-                        <input type="radio" id="vanilla" name="icecream">
-                        <label for="vanilla">Vanilla</label>
+                        <input type="radio" id="Robust Inspired Tomato Sauce" name="sauce">
+                        <label for="Robust Inspired Tomato Sauce">Robust Inspired Tomato Sauce</label>
                     </div>
                     <div>
-                        <input type="radio" id="strawberry" name="icecream">
-                        <label for="strawberry">Strawberry</label>
+                        <input type="radio" id="Hearty Marinara Sauce" name="sauce">
+                        <label for="Hearty Marinara Sauce">Hearty Marinara Sauce</label>
                     </div>
                     <div>
-                        <input type="radio" id="chocolate" name="icecream">
-                        <label for="chocolate">Chocolate</label>
+                        <input type="radio" id="Garlic Parmesan Sauce" name="sauce">
+                        <label for="Garlic Parmesan Sauce">Garlic Parmesan Sauce</label>
                     </div>
                 </fieldset>
             </div>
@@ -64,32 +64,38 @@
             <fieldset>
                 <legend>Toppings:</legend>
                 <div>
-                    <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
-                    <label for="sprinkles">Sprinkles</label>
+                    <input type="checkbox" id="Premium Chicken" name="Premium Chicken" value="Premium Chicken">
+                    <label for="Premium Chicken">Premium Chicken</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="whippedCream" name="whippedCream" value="whippedCream">
-                    <label for="whippedCream">Whipped Cream</label>
+                    <input type="checkbox" id="Bacon" name="Bacon" value="Bacon">
+                    <label for="Bacon">Bacon</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="caramel" name="caramel" value="caramel">
-                    <label for="caramel">Caramel Sauce</label>
+                    <input type="checkbox" id="Salami" name="Salami" value="Salami">
+                    <label for="Salami">Salami</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Pepperoni" name="Pepperoni" value="Pepperoni">
+                    <label for="Pepperoni">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Ham" name="Ham" value="Ham">
+                    <label for="Ham">Ham</label>
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Cup or Cone:</legend>
+                <legend>One side or full topping:</legend>
                 <label for="container">Please Choose One</label>
                 <select name="container" id="container">
-                    <option value="cup">Plastic Cup</option>
-                    <option value="sugar">Sugar Cup</option>
-                    <option value="waffle">Waffle Cone</option>
-                    <option value="dippedWaffle">Choclate Dipped Waffle Cone</option>
+                    <option value="cup">Full</option>
+                    <option value="sugar">One Side</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Special:</legend>
                 <label for="SpecialRequests">Special Requests:</label>
-                <textarea id="SpecialRequests" name="SpecialRequests" rows="4" cols="10" placeholder="Allergic to peanuts, substitutions, etc."></textarea>
+                <textarea id="SpecialRequests" name="SpecialRequests" rows="4" cols="10" placeholder="If you would like specific instuctions on how you want your toppings to go you may type it here: ."></textarea>
             </fieldset>
             <button type="button" onclick="alert('Free today for our Grand Opening!')">Calculate Cost</button>
             <button type="submit">Submit Order</button>
